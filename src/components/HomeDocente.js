@@ -12,7 +12,6 @@ function HomeDocente(props) {
       <Routes>
         <Route path='/homedocente' element={<HomeDocente></HomeDocente>} component={HomeDocente}></Route>
         <Route path='/examenes/*' element={<Examenes></Examenes>} component={Examenes}></Route>
-        <Route path='/resultados' element={<Resultados></Resultados>} component={Resultados}></Route>
       </Routes>
         <h1 className='text-center font-bold mt-12'>{props.bienvenido}</h1>
     </div>
